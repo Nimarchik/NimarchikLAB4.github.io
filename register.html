@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Ivanov</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <nav class="nav">
+                <a href="index.html" class="logo__link"><img src="img/logo.svg" alt="logo" class="nav__logo"></a>
+                <div class="dropdown_nav">
+                    <a class="dropbtn">Menu <img src="img/angle-small-down.png" alt="" class="small"></a>
+                    <div class="dropdown__content">
+                        <ul class="nav__list">
+                            <li class="nav__list-item">
+                                <a href="index.html" class="nav__list-link">Головна</a>
+                            </li>
+                            <li class="nav__line"></li>
+                            <li class="nav__list-item">
+                                <a href="about.html" class="nav__list-link">Про нас</a>
+                            </li>
+                            <li class="nav__line"></li>
+                            <li class="nav__list-item">
+                                <a href="Tobook.html" class="nav__list-link">забронвати</a>
+                            </li>
+                            <li class="nav__line"></li>
+                            <li class="nav__list-item">
+                                <a href="contacts.html" class="nav__list-link">контакти</a>
+                            </li>
+                            <li class="nav__line"></li>
+                            <li class="nav__list-item">
+                                <a href="register.html" class="nav__list-link active">Войти</a>
+                            </li>
+                            <li class="nav__line"></li>
+                            <li class="nav__list-item">
+                                <a href="bootstrap.html" class="nav__list-link">Bootstrap</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+
+        <main class="main">
+            <section class="form">
+                <input type="search" class="nav__list-input" placeholder="Пошук">
+                <a href="#top" class="top"><svg class="top__img" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#fff" class="bi bi-airplane" viewBox="0 0 16 16">
+                    <path d="M6.428 1.151C6.708.591 7.213 0 8 0s1.292.592 1.572 1.151C9.861 1.73 10 2.431 10 3v3.691l5.17 2.585a1.5 1.5 0 0 1 .83 1.342V12a.5.5 0 0 1-.582.493l-5.507-.918-.375 2.253 1.318 1.318A.5.5 0 0 1 10.5 16h-5a.5.5 0 0 1-.354-.854l1.319-1.318-.376-2.253-5.507.918A.5.5 0 0 1 0 12v-1.382a1.5 1.5 0 0 1 .83-1.342L6 6.691V3c0-.568.14-1.271.428-1.849Zm.894.448C7.111 2.02 7 2.569 7 3v4a.5.5 0 0 1-.276.447l-5.448 2.724a.5.5 0 0 0-.276.447v.792l5.418-.903a.5.5 0 0 1 .575.41l.5 3a.5.5 0 0 1-.14.437L6.708 15h2.586l-.647-.646a.5.5 0 0 1-.14-.436l.5-3a.5.5 0 0 1 .576-.411L15 11.41v-.792a.5.5 0 0 0-.276-.447L9.276 7.447A.5.5 0 0 1 9 7V3c0-.432-.11-.979-.322-1.401C8.458 1.159 8.213 1 8 1c-.213 0-.458.158-.678.599Z"/>
+                  </svg></a>
+                <header class="re__header">
+                    <div class="container">
+                        <h3 class="reg__title">Войти</h3>
+                    </div>
+                </header>
+                <div class="container">
+                    <div class="reg__form">
+                        <h2 class="reg__form-title">Вхід</h2>
+                        <ul class="reg__form-list">
+                            <li class="reg__form-item">
+                                <p class="reg__form-text">E-mail:</p>
+                                <input type="email" class="reg__form-input" placeholder="Введіть пошту">
+                            </li>
+                            <li class="reg__form-item">
+                                <p class="reg__form-text">Пароль:</p>
+                                <input type="password" class="reg__form-input" placeholder="Пароль">
+                            </li>
+                            <li class="reg__form-item"><a href="#" class="reg__form-btn">Войти</a></li>
+                            <li class="line"></li>
+                            <li class="reg__form-item">
+                                <p class="madal__text">Або</p>
+                                <button type="button" class="btn_filter btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                    Реєстрація
+                                  </button>
+                                <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                                      <div class="modal-content">
+                                        <div class="modal-header">
+                                          <h1 class="modal-title fs-5" id="staticBackdropLabel">Реєстрація</h1>
+                                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                          <div class="modal__container">
+                                            <form class="">
+                                                <div class="form-floating mb-3">
+                                                  <input type="email" class="form-control rounded-3" id="floatingInput" placeholder="name@example.com">
+                                                  <label for="floatingInput"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Адреса електронної пошти</font></font></label>
+                                                </div>
+                                                <div class="form-floating mb-3">
+                                                  <input type="password" class="form-control rounded-3" id="floatingPassword" placeholder="Пароль">
+                                                  <label for="floatingPassword"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Пароль</font></font></label>
+                                                </div>
+                                                <button class="w-100 mb-2 btn btn-lg rounded-3 btn-primary" type="submit"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Зареєструватися</font></font></button>
+                                                <small class="text-body-secondary"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Натискаючи «Зареєструватися», ви погоджуєтеся з умовами використання.</font></font></small>
+                                                <hr class="my-4">
+                                                <h2 class="fs-5 fw-bold mb-3"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Або скористайтеся сторонніми</font></font></h2>
+                                                <button class="w-100 py-2 mb-2 btn btn-outline-secondary rounded-3" type="submit">
+                                                  <svg class="bi me-1" width="16" height="16"><use xlink:href="#twitter"></use></svg><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                                                  Зареєструйтесь у Twitter
+                                                </font></font></button>
+                                                <button class="w-100 py-2 mb-2 btn btn-outline-primary rounded-3" type="submit">
+                                                  <svg class="bi me-1" width="16" height="16"><use xlink:href="#facebook"></use></svg><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                                                  Зареєструватися через Facebook
+                                                </font></font></button>
+                                                <button class="w-100 py-2 mb-2 btn btn-outline-secondary rounded-3" type="submit">
+                                                  <svg class="bi me-1" width="16" height="16"><use xlink:href="#github"></use></svg><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                                                  Зареєструйтеся на GitHub
+                                                </font></font></button>
+                                              </form>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="container">
+                <h4 class="footer_title">© 2021 HolidayTime. All rights reserved.</h4>
+                <p class="footer__text">Зверстав: Іванова О.О.</p>
+            </div>
+
+            <div class="footer__content">
+                <div class="container">
+                    <div class="dropdown">
+                        <button class="btn_filter btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Dropdown
+                          </button>
+                    <ul class="footer__list dropdown-menu">
+                        <li class="footer__list-item dropdown-item"><a href="index.html" class="footer__lisst-link">Головна</a></li>
+                        <li class="footer__list-item dropdown-item"><a href="about.html" class="footer__lisst-link">Про нас</a></li>
+                        <li class="footer__list-item dropdown-item"><a href="Tobook.html" class="footer__lisst-link">Забронювати</a></li>
+                        <li class="footer__list-item dropdown-item"><a href="register.html" class="footer__lisst-link">Реєстрація</a></li>
+                    </ul></div>
+                </div>
+            </div>
+            <p>
+                <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                    <img class="validator" style="border:0;width:88px;height:31px"
+                        src="http://jigsaw.w3.org/css-validator/images/vcss-blue" alt="Правильний CSS!">
+                </a>
+            </p>
+        </footer>
+        <p>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
